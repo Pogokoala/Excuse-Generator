@@ -7,10 +7,10 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  let who = ["The guinea pig", "Chubbie", "His Pet", "My pig"];
-  let action = ["ate", "groge", "popcorned", "zoomed"];
-  let what = ["the pallet", "a carrot", "some cucumbers"];
-  let when = ["yesterday.", "last week.", "2 months ago."];
+  let who = ["The guinea pig", "Chubbie", "His pig", "My pig"];
+  let action = ["ate", "gorged", "feasted", "devoured"];
+  let what = ["pellets", "on a carrot", "on some cucumbers"];
+  let when = ["yesterday.", "last week.", "last month."];
 
   function guineaPig() {
     document.getElementById("Pig").innerHTML =
